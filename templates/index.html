@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>What students are saying</h1>
+<p class="lead">{{ s.kpis.total }} responses across {{ s.kpis.courses }} courses, analysed from feedback.csv.</p>
+<section class="kpis">
+  <div><b>{{ s.kpis.avg_rating }}</b><span>average overall rating (out of 5)</span></div>
+  <div><b>{{ s.kpis.positive_pct }}%</b><span>comments with positive sentiment</span></div>
+  <div><b>{{ s.top_courses.keys()|first if s.top_courses else "—" }}</b><span>highest rated course</span></div>
+  <div><b>{{ s.bottom_courses.keys()|first if s.bottom_courses else "—" }}</b><span>lowest rated course</span></div>
+</section>
+<p><a class="btn" href="{{ url_for('dashboard') }}">Open dashboard</a>
+   <a class="btn ghost" href="{{ url_for('feedback') }}">Submit feedback</a></p>
+{% endblock %}

@@ -1,0 +1,502 @@
+feedback_id,date,student_id,department,course,instructor,semester,teaching_quality,course_content,lab_facilities,support_staff,overall_rating,comment
+1,2025-08-16,S1047,Computer Science,Data Structures,Prof. Rao,Sem 2,4,3,3,4,3,"Some topics were good, others average. Course is okay overall."
+2,2026-07-24,S1216,Electronics,VLSI Design,Dr. Gupta,Sem 3,4,4,4,4,4,Explains concepts very clearly. Great practical examples and projects.
+3,2026-05-02,S1063,Mechanical,Thermodynamics,Prof. Verma,Sem 4,4,5,5,5,4,Explains concepts very clearly. Very supportive and approachable teacher.
+4,2025-11-28,S1051,Computer Science,Database Systems,Prof. Rao,Sem 4,1,1,2,3,2,Lab equipment is poor and often broken. Lectures move too fast.
+5,2026-06-22,S1087,Mechanical,Fluid Mechanics,Prof. Rao,Sem 2,4,3,5,4,4,Explains concepts very clearly. Course content is up to date and useful.
+6,2026-09-25,S1016,Electronics,Signal Processing,Prof. Khan,Sem 3,5,3,3,3,4,Explains concepts very clearly. Great practical examples and projects.
+7,2025-10-13,S1135,Management,Financial Accounting,Dr. Sharma,Sem 2,5,4,4,4,4,Loved the interactive sessions. Very supportive and approachable teacher.
+8,2026-04-10,S1046,Electronics,VLSI Design,Dr. Gupta,Sem 1,2,1,2,1,2,Syllabus is outdated and boring. Assignments are confusing and feedback is slow.
+9,2025-08-06,S1058,Computer Science,Machine Learning,Prof. Rao,Sem 3,5,4,4,4,4,The labs were well organised. Course content is up to date and useful.
+10,2026-06-17,S1152,Mechanical,Thermodynamics,Dr. Iyer,Sem 2,3,4,2,3,3,Course is okay overall. Decent teaching but could improve.
+11,2025-12-01,S1029,Electronics,Signal Processing,Prof. Verma,Sem 2,2,2,2,2,2,Lab equipment is poor and often broken. Classes are crowded and noisy.
+12,2025-12-14,S1270,Computer Science,Data Structures,Prof. Rao,Sem 4,3,3,2,4,3,Decent teaching but could improve. Course is okay overall.
+13,2025-12-05,S1115,Electronics,VLSI Design,Prof. Rao,Sem 1,2,2,4,2,3,"Some topics were good, others average. Course is okay overall."
+14,2025-09-06,S1263,Mechanical,Thermodynamics,Dr. Gupta,Sem 2,2,3,3,3,3,"Course is okay overall. Some topics were good, others average."
+15,2025-09-18,S1049,Mechanical,CAD/CAM,Prof. Khan,Sem 4,4,4,3,3,4,Very supportive and approachable teacher. Great practical examples and projects.
+16,2025-12-06,S1098,Mechanical,Fluid Mechanics,Prof. Khan,Sem 2,2,1,1,3,2,Lab equipment is poor and often broken. Lectures move too fast.
+17,2026-06-30,S1276,Management,Marketing,Prof. Khan,Sem 1,5,4,4,4,4,Explains concepts very clearly. Loved the interactive sessions.
+18,2026-09-06,S1232,Computer Science,Machine Learning,Prof. Verma,Sem 3,3,4,2,3,3,"Some topics were good, others average. Decent teaching but could improve."
+19,2025-09-01,S1160,Management,Business Analytics,Prof. Rao,Sem 1,5,5,4,4,5,Course content is up to date and useful. Loved the interactive sessions.
+20,2026-02-23,S1061,Computer Science,Operating Systems,Dr. Gupta,Sem 2,4,5,5,5,5,Explains concepts very clearly. Great practical examples and projects.
+21,2025-10-07,S1153,Computer Science,Data Structures,Prof. Khan,Sem 4,2,3,3,3,3,"Some topics were good, others average. Decent teaching but could improve."
+22,2025-12-04,S1189,Mechanical,Thermodynamics,Dr. Sharma,Sem 3,1,1,1,1,1,Lab equipment is poor and often broken. Lectures move too fast.
+23,2025-10-08,S1135,Electronics,Signal Processing,Dr. Gupta,Sem 1,2,4,3,4,3,"Some topics were good, others average. Course is okay overall."
+24,2025-09-17,S1216,Computer Science,Machine Learning,Dr. Iyer,Sem 3,4,3,4,4,3,"Some topics were good, others average. Course is okay overall."
+25,2025-09-08,S1076,Computer Science,Data Structures,Dr. Iyer,Sem 1,3,4,5,3,4,Explains concepts very clearly. Loved the interactive sessions.
+26,2026-07-16,S1127,Mechanical,CAD/CAM,Dr. Gupta,Sem 1,4,3,5,4,3,"Some topics were good, others average. Course is okay overall."
+27,2025-08-13,S1091,Mechanical,CAD/CAM,Prof. Khan,Sem 3,5,5,5,5,5,Great practical examples and projects. Very supportive and approachable teacher.
+28,2026-09-23,S1235,Management,Business Analytics,Prof. Rao,Sem 3,3,4,4,5,4,Great practical examples and projects. Loved the interactive sessions.
+29,2026-02-21,S1274,Mechanical,Thermodynamics,Prof. Verma,Sem 3,4,4,5,5,4,Loved the interactive sessions. Course content is up to date and useful.
+30,2026-06-07,S1261,Computer Science,Data Structures,Dr. Iyer,Sem 1,5,5,5,4,5,The labs were well organised. Very supportive and approachable teacher.
+31,2026-02-03,S1220,Management,Business Analytics,Prof. Verma,Sem 1,5,5,4,3,4,Loved the interactive sessions. Great practical examples and projects.
+32,2026-05-11,S1065,Mechanical,CAD/CAM,Dr. Iyer,Sem 2,3,4,3,3,3,"Decent teaching but could improve. Some topics were good, others average."
+33,2026-03-09,S1296,Management,Business Analytics,Prof. Khan,Sem 3,2,2,2,3,2,Lab equipment is poor and often broken. Syllabus is outdated and boring.
+34,2026-07-06,S1171,Management,Financial Accounting,Prof. Khan,Sem 1,2,4,2,3,2,Lab equipment is poor and often broken. Assignments are confusing and feedback is slow.
+35,2026-03-01,S1294,Electronics,VLSI Design,Dr. Iyer,Sem 2,4,4,4,3,4,Explains concepts very clearly. Very supportive and approachable teacher.
+36,2025-10-30,S1265,Management,Financial Accounting,Prof. Khan,Sem 4,5,5,4,4,4,Very supportive and approachable teacher. Great practical examples and projects.
+37,2026-09-22,S1258,Computer Science,Machine Learning,Dr. Sharma,Sem 4,2,1,1,1,1,"Too much theory, not enough practice. Assignments are confusing and feedback is slow."
+38,2025-12-19,S1225,Management,Marketing,Prof. Rao,Sem 1,4,4,3,4,4,Very supportive and approachable teacher. Great practical examples and projects.
+39,2026-03-01,S1208,Mechanical,Thermodynamics,Dr. Iyer,Sem 3,4,3,3,2,3,Course is okay overall. Decent teaching but could improve.
+40,2026-04-02,S1003,Management,Financial Accounting,Dr. Sharma,Sem 3,4,5,3,3,3,"Decent teaching but could improve. Some topics were good, others average."
+41,2026-02-16,S1172,Mechanical,Fluid Mechanics,Prof. Khan,Sem 4,2,3,1,2,2,"Too much theory, not enough practice. Lectures move too fast."
+42,2026-03-25,S1093,Electronics,Signal Processing,Prof. Verma,Sem 1,5,5,4,5,5,Very supportive and approachable teacher. Great practical examples and projects.
+43,2026-03-29,S1009,Mechanical,Fluid Mechanics,Dr. Iyer,Sem 1,4,4,3,4,3,"Some topics were good, others average. Course is okay overall."
+44,2025-12-01,S1064,Mechanical,Thermodynamics,Prof. Rao,Sem 4,5,5,5,5,5,Course content is up to date and useful. Great practical examples and projects.
+45,2025-09-25,S1296,Computer Science,Machine Learning,Prof. Khan,Sem 1,2,4,4,3,3,"Course is okay overall. Some topics were good, others average."
+46,2026-07-23,S1154,Mechanical,CAD/CAM,Prof. Rao,Sem 1,4,5,4,3,4,Great practical examples and projects. Explains concepts very clearly.
+47,2026-02-02,S1235,Computer Science,Database Systems,Dr. Gupta,Sem 2,3,2,3,3,2,"Lectures move too fast. Too much theory, not enough practice."
+48,2025-12-16,S1165,Management,Marketing,Prof. Rao,Sem 2,2,1,1,2,1,Classes are crowded and noisy. Assignments are confusing and feedback is slow.
+49,2025-11-17,S1181,Computer Science,Database Systems,Prof. Khan,Sem 3,4,3,3,5,4,Great practical examples and projects. Very supportive and approachable teacher.
+50,2026-08-24,S1123,Mechanical,Fluid Mechanics,Dr. Gupta,Sem 4,3,5,3,4,4,Very supportive and approachable teacher. Course content is up to date and useful.
+51,2026-03-06,S1281,Management,Financial Accounting,Dr. Sharma,Sem 3,4,4,4,4,4,Course content is up to date and useful. The labs were well organised.
+52,2025-11-07,S1110,Mechanical,CAD/CAM,Prof. Khan,Sem 4,4,4,4,4,4,Loved the interactive sessions. Great practical examples and projects.
+53,2025-08-08,S1273,Mechanical,CAD/CAM,Dr. Gupta,Sem 2,5,5,5,5,5,Great practical examples and projects. The labs were well organised.
+54,2026-03-29,S1245,Mechanical,Thermodynamics,Dr. Sharma,Sem 4,2,3,3,1,2,Assignments are confusing and feedback is slow. Lab equipment is poor and often broken.
+55,2025-10-17,S1076,Mechanical,Thermodynamics,Dr. Sharma,Sem 3,5,4,4,3,4,Loved the interactive sessions. Explains concepts very clearly.
+56,2026-05-29,S1219,Computer Science,Machine Learning,Dr. Sharma,Sem 3,3,2,2,3,2,"Too much theory, not enough practice. Lab equipment is poor and often broken."
+57,2026-07-19,S1240,Computer Science,Data Structures,Prof. Verma,Sem 3,3,3,3,3,3,"Some topics were good, others average. Decent teaching but could improve."
+58,2026-03-06,S1058,Computer Science,Machine Learning,Dr. Iyer,Sem 2,2,2,3,4,3,Decent teaching but could improve. Course is okay overall.
+59,2026-07-19,S1155,Electronics,Signal Processing,Prof. Verma,Sem 4,4,4,5,4,4,Explains concepts very clearly. Very supportive and approachable teacher.
+60,2026-07-12,S1294,Mechanical,CAD/CAM,Dr. Gupta,Sem 1,3,4,3,3,3,Course is okay overall. Decent teaching but could improve.
+61,2025-09-16,S1240,Mechanical,CAD/CAM,Dr. Sharma,Sem 3,3,3,4,3,4,Very supportive and approachable teacher. Loved the interactive sessions.
+62,2026-03-21,S1045,Management,Financial Accounting,Dr. Iyer,Sem 3,2,2,4,2,3,Decent teaching but could improve. Course is okay overall.
+63,2025-11-05,S1265,Mechanical,Fluid Mechanics,Dr. Sharma,Sem 3,4,3,4,4,3,"Some topics were good, others average. Course is okay overall."
+64,2026-06-19,S1122,Management,Business Analytics,Prof. Khan,Sem 2,3,2,3,3,3,Course is okay overall. Decent teaching but could improve.
+65,2026-08-02,S1149,Mechanical,CAD/CAM,Dr. Sharma,Sem 3,3,5,3,3,4,Great practical examples and projects. Very supportive and approachable teacher.
+66,2026-08-31,S1212,Management,Financial Accounting,Prof. Khan,Sem 3,4,3,5,2,3,"Course is okay overall. Some topics were good, others average."
+67,2026-01-18,S1282,Mechanical,Thermodynamics,Dr. Iyer,Sem 4,2,3,3,4,3,"Some topics were good, others average. Decent teaching but could improve."
+68,2026-02-14,S1077,Management,Financial Accounting,Prof. Verma,Sem 4,4,3,5,4,4,Very supportive and approachable teacher. Loved the interactive sessions.
+69,2026-02-26,S1079,Computer Science,Machine Learning,Dr. Gupta,Sem 1,4,5,5,5,5,Explains concepts very clearly. Great practical examples and projects.
+70,2026-05-05,S1018,Management,Financial Accounting,Dr. Iyer,Sem 1,3,3,3,3,3,"Some topics were good, others average. Decent teaching but could improve."
+71,2025-10-25,S1153,Electronics,VLSI Design,Prof. Rao,Sem 1,5,5,5,5,5,Explains concepts very clearly. Very supportive and approachable teacher.
+72,2025-09-10,S1195,Computer Science,Database Systems,Dr. Sharma,Sem 2,4,4,4,2,3,Course is okay overall. Decent teaching but could improve.
+73,2025-10-20,S1037,Management,Business Analytics,Prof. Verma,Sem 4,5,3,4,4,4,The labs were well organised. Course content is up to date and useful.
+74,2025-11-30,S1195,Mechanical,CAD/CAM,Dr. Iyer,Sem 3,3,3,4,3,4,Very supportive and approachable teacher. Explains concepts very clearly.
+75,2026-08-17,S1254,Mechanical,CAD/CAM,Dr. Iyer,Sem 3,5,5,5,5,5,Explains concepts very clearly. Course content is up to date and useful.
+76,2026-06-18,S1020,Electronics,VLSI Design,Dr. Iyer,Sem 3,4,4,5,4,4,Great practical examples and projects. Explains concepts very clearly.
+77,2026-04-29,S1256,Management,Marketing,Dr. Gupta,Sem 3,4,4,3,3,4,Course content is up to date and useful. The labs were well organised.
+78,2026-09-16,S1285,Electronics,Signal Processing,Prof. Khan,Sem 3,4,5,4,4,4,Great practical examples and projects. Very supportive and approachable teacher.
+79,2025-09-25,S1119,Computer Science,Operating Systems,Dr. Sharma,Sem 4,4,3,4,4,4,Loved the interactive sessions. The labs were well organised.
+80,2025-08-20,S1155,Computer Science,Database Systems,Dr. Gupta,Sem 4,4,4,2,3,4,Great practical examples and projects. Explains concepts very clearly.
+81,2026-03-01,S1050,Computer Science,Data Structures,Prof. Verma,Sem 4,4,3,4,4,3,"Some topics were good, others average. Course is okay overall."
+82,2026-06-27,S1183,Management,Financial Accounting,Dr. Sharma,Sem 1,3,3,4,2,4,The labs were well organised. Course content is up to date and useful.
+83,2026-09-07,S1170,Management,Financial Accounting,Prof. Verma,Sem 2,5,5,5,5,5,Explains concepts very clearly. Loved the interactive sessions.
+84,2025-08-02,S1141,Electronics,VLSI Design,Prof. Verma,Sem 2,5,5,5,5,5,Great practical examples and projects. Course content is up to date and useful.
+85,2025-08-09,S1089,Electronics,VLSI Design,Dr. Iyer,Sem 3,3,4,3,3,4,Course content is up to date and useful. The labs were well organised.
+86,2025-11-22,S1022,Computer Science,Machine Learning,Prof. Rao,Sem 3,3,4,3,3,4,Very supportive and approachable teacher. Course content is up to date and useful.
+87,2026-01-12,S1075,Management,Business Analytics,Dr. Sharma,Sem 1,5,4,5,3,4,Explains concepts very clearly. Loved the interactive sessions.
+88,2025-09-20,S1058,Electronics,Signal Processing,Dr. Gupta,Sem 2,2,2,5,2,3,"Decent teaching but could improve. Some topics were good, others average."
+89,2025-10-18,S1242,Management,Financial Accounting,Prof. Verma,Sem 1,3,1,3,2,2,Lab equipment is poor and often broken. Classes are crowded and noisy.
+90,2026-07-10,S1062,Computer Science,Data Structures,Dr. Sharma,Sem 4,3,2,2,4,3,"Decent teaching but could improve. Some topics were good, others average."
+91,2026-07-03,S1246,Mechanical,CAD/CAM,Prof. Khan,Sem 2,4,5,4,4,5,Great practical examples and projects. Loved the interactive sessions.
+92,2026-07-12,S1285,Computer Science,Database Systems,Dr. Gupta,Sem 1,3,2,2,3,2,Assignments are confusing and feedback is slow. Classes are crowded and noisy.
+93,2025-09-05,S1072,Mechanical,Thermodynamics,Prof. Verma,Sem 1,4,4,3,4,4,Loved the interactive sessions. Very supportive and approachable teacher.
+94,2025-10-19,S1080,Computer Science,Machine Learning,Prof. Khan,Sem 1,3,2,4,3,3,Course is okay overall. Decent teaching but could improve.
+95,2025-12-24,S1249,Computer Science,Database Systems,Prof. Khan,Sem 3,2,3,3,3,3,"Some topics were good, others average. Course is okay overall."
+96,2025-10-01,S1003,Computer Science,Machine Learning,Prof. Khan,Sem 4,4,4,5,4,4,The labs were well organised. Loved the interactive sessions.
+97,2026-03-12,S1009,Management,Marketing,Prof. Verma,Sem 4,3,1,3,3,2,Classes are crowded and noisy. Lectures move too fast.
+98,2026-03-24,S1185,Computer Science,Database Systems,Dr. Gupta,Sem 1,3,2,2,1,2,Syllabus is outdated and boring. Assignments are confusing and feedback is slow.
+99,2026-04-19,S1058,Management,Marketing,Prof. Verma,Sem 2,3,4,3,3,3,Course is okay overall. Decent teaching but could improve.
+100,2025-10-30,S1252,Mechanical,Fluid Mechanics,Prof. Rao,Sem 4,5,5,5,5,5,Great practical examples and projects. Explains concepts very clearly.
+101,2026-06-20,S1155,Management,Business Analytics,Dr. Gupta,Sem 3,1,1,3,2,2,"Too much theory, not enough practice. Classes are crowded and noisy."
+102,2026-06-01,S1259,Computer Science,Database Systems,Dr. Gupta,Sem 4,5,5,5,4,5,Explains concepts very clearly. Course content is up to date and useful.
+103,2026-04-14,S1077,Management,Business Analytics,Dr. Gupta,Sem 1,5,5,5,5,5,Course content is up to date and useful. Very supportive and approachable teacher.
+104,2026-02-03,S1190,Management,Marketing,Dr. Iyer,Sem 3,4,4,4,3,3,Decent teaching but could improve. Course is okay overall.
+105,2025-12-08,S1076,Management,Financial Accounting,Dr. Iyer,Sem 3,3,3,3,3,3,"Some topics were good, others average. Decent teaching but could improve."
+106,2026-06-26,S1168,Computer Science,Machine Learning,Dr. Iyer,Sem 2,4,3,3,3,3,"Decent teaching but could improve. Some topics were good, others average."
+107,2025-10-19,S1039,Computer Science,Operating Systems,Dr. Gupta,Sem 3,3,3,3,4,3,Course is okay overall. Decent teaching but could improve.
+108,2026-08-05,S1224,Computer Science,Data Structures,Prof. Rao,Sem 1,4,3,3,3,4,Course content is up to date and useful. Great practical examples and projects.
+109,2026-09-19,S1240,Management,Financial Accounting,Prof. Rao,Sem 2,2,2,3,3,2,Syllabus is outdated and boring. Lab equipment is poor and often broken.
+110,2025-10-10,S1128,Mechanical,CAD/CAM,Dr. Gupta,Sem 1,5,4,5,3,4,Great practical examples and projects. Course content is up to date and useful.
+111,2025-10-15,S1223,Management,Financial Accounting,Dr. Gupta,Sem 1,5,5,5,5,5,Very supportive and approachable teacher. Course content is up to date and useful.
+112,2026-01-11,S1050,Electronics,Signal Processing,Dr. Iyer,Sem 3,4,4,5,4,4,Great practical examples and projects. Explains concepts very clearly.
+113,2025-08-10,S1131,Electronics,Digital Circuits,Dr. Sharma,Sem 2,4,3,3,3,3,Course is okay overall. Decent teaching but could improve.
+114,2025-09-02,S1056,Electronics,VLSI Design,Prof. Rao,Sem 4,2,3,2,3,3,"Decent teaching but could improve. Some topics were good, others average."
+115,2026-02-01,S1034,Computer Science,Machine Learning,Prof. Rao,Sem 1,5,4,4,3,4,Explains concepts very clearly. Course content is up to date and useful.
+116,2026-08-31,S1297,Management,Financial Accounting,Dr. Sharma,Sem 3,1,2,2,2,1,Classes are crowded and noisy. Lectures move too fast.
+117,2026-09-20,S1069,Electronics,Digital Circuits,Dr. Iyer,Sem 1,2,2,3,1,2,Classes are crowded and noisy. Syllabus is outdated and boring.
+118,2025-12-08,S1018,Management,Marketing,Dr. Iyer,Sem 2,5,4,4,4,5,Course content is up to date and useful. Very supportive and approachable teacher.
+119,2025-11-04,S1254,Mechanical,Fluid Mechanics,Dr. Sharma,Sem 4,4,5,5,5,4,Very supportive and approachable teacher. The labs were well organised.
+120,2025-09-10,S1167,Mechanical,CAD/CAM,Dr. Iyer,Sem 3,3,5,4,4,4,The labs were well organised. Explains concepts very clearly.
+121,2025-12-19,S1029,Mechanical,Fluid Mechanics,Dr. Gupta,Sem 1,3,3,4,3,3,"Decent teaching but could improve. Some topics were good, others average."
+122,2025-09-04,S1120,Management,Financial Accounting,Dr. Gupta,Sem 3,3,4,4,3,3,Course is okay overall. Decent teaching but could improve.
+123,2026-02-04,S1203,Mechanical,Fluid Mechanics,Dr. Gupta,Sem 3,4,4,4,4,4,Great practical examples and projects. Course content is up to date and useful.
+124,2025-11-18,S1146,Mechanical,Thermodynamics,Dr. Sharma,Sem 4,4,3,4,5,4,Loved the interactive sessions. Very supportive and approachable teacher.
+125,2026-07-30,S1033,Electronics,Digital Circuits,Prof. Verma,Sem 3,4,5,4,5,5,The labs were well organised. Loved the interactive sessions.
+126,2026-09-09,S1252,Mechanical,Thermodynamics,Prof. Rao,Sem 1,2,4,4,4,4,Great practical examples and projects. Loved the interactive sessions.
+127,2026-04-27,S1210,Mechanical,CAD/CAM,Dr. Gupta,Sem 4,3,2,2,3,3,"Decent teaching but could improve. Some topics were good, others average."
+128,2025-11-02,S1066,Computer Science,Machine Learning,Dr. Iyer,Sem 4,2,3,2,4,2,Classes are crowded and noisy. Assignments are confusing and feedback is slow.
+129,2025-12-07,S1100,Computer Science,Data Structures,Dr. Gupta,Sem 3,4,3,5,3,4,The labs were well organised. Explains concepts very clearly.
+130,2026-05-16,S1021,Electronics,VLSI Design,Dr. Iyer,Sem 1,3,3,3,3,3,"Decent teaching but could improve. Some topics were good, others average."
+131,2025-12-27,S1154,Computer Science,Data Structures,Prof. Rao,Sem 4,3,4,4,4,4,Loved the interactive sessions. Course content is up to date and useful.
+132,2026-01-08,S1163,Electronics,VLSI Design,Prof. Khan,Sem 3,4,4,4,3,4,Course content is up to date and useful. Great practical examples and projects.
+133,2026-02-13,S1214,Management,Marketing,Dr. Iyer,Sem 2,3,3,3,3,3,"Course is okay overall. Some topics were good, others average."
+134,2025-09-16,S1201,Electronics,Signal Processing,Dr. Gupta,Sem 4,3,5,5,2,4,Very supportive and approachable teacher. Explains concepts very clearly.
+135,2025-09-25,S1220,Electronics,Digital Circuits,Dr. Gupta,Sem 2,4,2,3,3,3,Decent teaching but could improve. Course is okay overall.
+136,2026-04-16,S1230,Mechanical,CAD/CAM,Dr. Iyer,Sem 3,3,3,4,4,4,Explains concepts very clearly. Very supportive and approachable teacher.
+137,2026-04-14,S1020,Computer Science,Machine Learning,Dr. Sharma,Sem 1,3,2,4,2,3,"Decent teaching but could improve. Some topics were good, others average."
+138,2025-10-23,S1201,Computer Science,Machine Learning,Prof. Rao,Sem 3,4,2,3,3,3,"Decent teaching but could improve. Some topics were good, others average."
+139,2026-09-12,S1013,Mechanical,CAD/CAM,Dr. Gupta,Sem 4,2,2,3,2,3,"Some topics were good, others average. Decent teaching but could improve."
+140,2026-09-25,S1124,Mechanical,CAD/CAM,Dr. Gupta,Sem 1,2,2,2,2,2,"Too much theory, not enough practice. Syllabus is outdated and boring."
+141,2026-07-28,S1070,Computer Science,Machine Learning,Dr. Sharma,Sem 2,3,2,3,2,2,"Too much theory, not enough practice. Lectures move too fast."
+142,2026-06-09,S1247,Mechanical,CAD/CAM,Prof. Khan,Sem 2,3,3,4,3,3,"Decent teaching but could improve. Some topics were good, others average."
+143,2026-04-03,S1178,Electronics,Signal Processing,Dr. Gupta,Sem 3,4,4,3,3,3,"Some topics were good, others average. Decent teaching but could improve."
+144,2025-12-26,S1040,Mechanical,Thermodynamics,Dr. Gupta,Sem 3,3,4,3,4,3,"Some topics were good, others average. Course is okay overall."
+145,2025-12-03,S1025,Management,Business Analytics,Dr. Iyer,Sem 2,3,4,3,3,3,Course is okay overall. Decent teaching but could improve.
+146,2026-07-01,S1243,Electronics,Digital Circuits,Dr. Sharma,Sem 4,3,3,3,3,3,"Course is okay overall. Some topics were good, others average."
+147,2026-03-02,S1090,Electronics,Signal Processing,Dr. Iyer,Sem 1,4,4,3,4,4,Explains concepts very clearly. Great practical examples and projects.
+148,2025-12-24,S1232,Management,Financial Accounting,Prof. Verma,Sem 4,5,5,5,5,5,Explains concepts very clearly. The labs were well organised.
+149,2026-09-09,S1151,Electronics,VLSI Design,Prof. Khan,Sem 2,4,3,4,3,3,"Course is okay overall. Some topics were good, others average."
+150,2026-01-13,S1127,Electronics,VLSI Design,Prof. Rao,Sem 1,4,5,5,5,5,Great practical examples and projects. Very supportive and approachable teacher.
+151,2025-09-01,S1060,Mechanical,Fluid Mechanics,Prof. Verma,Sem 4,3,3,4,3,3,"Some topics were good, others average. Course is okay overall."
+152,2026-06-11,S1113,Mechanical,Thermodynamics,Prof. Khan,Sem 2,2,4,2,2,2,Lab equipment is poor and often broken. Classes are crowded and noisy.
+153,2026-08-26,S1126,Electronics,Signal Processing,Prof. Verma,Sem 1,2,1,2,2,1,Classes are crowded and noisy. Syllabus is outdated and boring.
+154,2025-10-24,S1167,Management,Business Analytics,Prof. Rao,Sem 4,3,3,3,3,3,Decent teaching but could improve. Course is okay overall.
+155,2026-05-14,S1236,Computer Science,Machine Learning,Prof. Rao,Sem 3,3,2,3,3,3,"Some topics were good, others average. Course is okay overall."
+156,2026-03-30,S1016,Computer Science,Operating Systems,Dr. Iyer,Sem 3,3,4,4,4,4,Explains concepts very clearly. Loved the interactive sessions.
+157,2025-09-11,S1276,Management,Marketing,Prof. Verma,Sem 2,2,3,3,4,3,"Some topics were good, others average. Decent teaching but could improve."
+158,2026-07-11,S1278,Mechanical,Thermodynamics,Prof. Verma,Sem 4,4,5,5,5,4,The labs were well organised. Very supportive and approachable teacher.
+159,2026-06-11,S1008,Management,Marketing,Prof. Verma,Sem 2,3,4,4,3,3,"Decent teaching but could improve. Some topics were good, others average."
+160,2026-05-04,S1111,Electronics,Digital Circuits,Dr. Sharma,Sem 1,2,2,2,3,2,"Too much theory, not enough practice. Syllabus is outdated and boring."
+161,2025-10-13,S1266,Electronics,VLSI Design,Dr. Iyer,Sem 2,5,3,3,4,3,"Course is okay overall. Some topics were good, others average."
+162,2026-01-24,S1195,Management,Financial Accounting,Dr. Iyer,Sem 3,5,5,5,5,5,Very supportive and approachable teacher. Explains concepts very clearly.
+163,2025-08-30,S1287,Management,Financial Accounting,Prof. Verma,Sem 4,4,3,3,4,4,Great practical examples and projects. Very supportive and approachable teacher.
+164,2026-08-06,S1097,Management,Business Analytics,Dr. Gupta,Sem 1,4,4,5,5,4,Explains concepts very clearly. Course content is up to date and useful.
+165,2025-11-15,S1170,Mechanical,Fluid Mechanics,Prof. Rao,Sem 3,3,4,4,3,3,"Course is okay overall. Some topics were good, others average."
+166,2025-12-01,S1282,Computer Science,Machine Learning,Prof. Verma,Sem 3,4,5,4,4,5,Great practical examples and projects. Very supportive and approachable teacher.
+167,2026-08-25,S1163,Mechanical,Fluid Mechanics,Prof. Khan,Sem 2,3,3,3,2,3,"Decent teaching but could improve. Some topics were good, others average."
+168,2025-12-30,S1078,Mechanical,Fluid Mechanics,Prof. Khan,Sem 2,5,5,5,5,5,Loved the interactive sessions. Very supportive and approachable teacher.
+169,2026-03-24,S1086,Mechanical,Thermodynamics,Prof. Khan,Sem 3,3,2,3,2,3,"Some topics were good, others average. Decent teaching but could improve."
+170,2026-08-27,S1003,Electronics,Digital Circuits,Prof. Rao,Sem 4,3,4,2,4,3,Course is okay overall. Decent teaching but could improve.
+171,2026-07-04,S1249,Electronics,VLSI Design,Prof. Verma,Sem 1,4,4,5,5,5,Course content is up to date and useful. Very supportive and approachable teacher.
+172,2025-09-24,S1049,Computer Science,Operating Systems,Dr. Sharma,Sem 2,5,5,5,4,5,Very supportive and approachable teacher. Great practical examples and projects.
+173,2026-07-23,S1115,Electronics,Digital Circuits,Dr. Gupta,Sem 3,2,2,3,2,2,Assignments are confusing and feedback is slow. Syllabus is outdated and boring.
+174,2026-05-17,S1048,Computer Science,Data Structures,Dr. Sharma,Sem 1,3,2,3,3,3,"Some topics were good, others average. Decent teaching but could improve."
+175,2025-10-31,S1161,Electronics,Digital Circuits,Prof. Rao,Sem 1,4,5,4,5,4,Course content is up to date and useful. Explains concepts very clearly.
+176,2026-01-17,S1196,Electronics,VLSI Design,Prof. Verma,Sem 2,3,3,4,4,4,Very supportive and approachable teacher. Course content is up to date and useful.
+177,2026-06-21,S1139,Computer Science,Database Systems,Dr. Sharma,Sem 4,4,5,5,4,4,The labs were well organised. Explains concepts very clearly.
+178,2026-08-01,S1037,Management,Marketing,Dr. Iyer,Sem 1,3,3,4,2,3,"Some topics were good, others average. Course is okay overall."
+179,2026-02-01,S1138,Mechanical,Thermodynamics,Prof. Khan,Sem 1,2,3,3,3,3,"Some topics were good, others average. Decent teaching but could improve."
+180,2026-02-14,S1006,Electronics,Digital Circuits,Prof. Verma,Sem 3,3,2,3,3,3,"Decent teaching but could improve. Some topics were good, others average."
+181,2025-12-16,S1154,Management,Financial Accounting,Dr. Sharma,Sem 3,3,4,3,3,3,Course is okay overall. Decent teaching but could improve.
+182,2026-06-01,S1100,Management,Marketing,Dr. Sharma,Sem 4,4,4,5,3,5,Loved the interactive sessions. Very supportive and approachable teacher.
+183,2025-10-09,S1153,Computer Science,Machine Learning,Dr. Iyer,Sem 3,5,5,4,5,5,Very supportive and approachable teacher. Course content is up to date and useful.
+184,2026-02-09,S1143,Electronics,Signal Processing,Dr. Iyer,Sem 4,5,4,5,3,4,Great practical examples and projects. The labs were well organised.
+185,2026-03-13,S1149,Mechanical,Thermodynamics,Dr. Gupta,Sem 1,5,5,5,5,5,Loved the interactive sessions. Great practical examples and projects.
+186,2026-04-03,S1298,Management,Business Analytics,Prof. Khan,Sem 4,4,4,4,4,4,Very supportive and approachable teacher. Course content is up to date and useful.
+187,2025-10-25,S1022,Management,Business Analytics,Dr. Sharma,Sem 4,3,4,3,4,3,"Course is okay overall. Some topics were good, others average."
+188,2026-02-17,S1237,Mechanical,Fluid Mechanics,Dr. Sharma,Sem 2,4,4,4,4,4,Very supportive and approachable teacher. The labs were well organised.
+189,2026-03-22,S1105,Mechanical,Thermodynamics,Prof. Khan,Sem 4,5,5,4,5,5,The labs were well organised. Loved the interactive sessions.
+190,2026-07-13,S1084,Mechanical,Fluid Mechanics,Dr. Sharma,Sem 2,3,2,3,2,2,Lab equipment is poor and often broken. Lectures move too fast.
+191,2026-02-19,S1014,Electronics,VLSI Design,Prof. Verma,Sem 2,4,2,3,3,3,"Decent teaching but could improve. Some topics were good, others average."
+192,2026-02-04,S1166,Management,Business Analytics,Prof. Khan,Sem 2,3,3,3,3,3,Course is okay overall. Decent teaching but could improve.
+193,2026-01-28,S1234,Management,Marketing,Dr. Iyer,Sem 2,2,4,3,3,3,"Course is okay overall. Some topics were good, others average."
+194,2026-03-03,S1070,Mechanical,CAD/CAM,Dr. Gupta,Sem 4,4,4,4,4,4,Course content is up to date and useful. Very supportive and approachable teacher.
+195,2026-01-09,S1230,Management,Marketing,Prof. Khan,Sem 1,2,1,1,2,1,Syllabus is outdated and boring. Classes are crowded and noisy.
+196,2026-04-08,S1085,Mechanical,Thermodynamics,Prof. Khan,Sem 1,5,5,5,4,5,Very supportive and approachable teacher. Loved the interactive sessions.
+197,2026-04-19,S1057,Computer Science,Machine Learning,Dr. Iyer,Sem 1,4,4,5,3,4,Very supportive and approachable teacher. Course content is up to date and useful.
+198,2025-12-31,S1016,Mechanical,CAD/CAM,Dr. Iyer,Sem 4,2,2,1,2,2,Classes are crowded and noisy. Syllabus is outdated and boring.
+199,2026-06-20,S1219,Mechanical,Fluid Mechanics,Dr. Sharma,Sem 2,2,1,1,1,1,Lab equipment is poor and often broken. Assignments are confusing and feedback is slow.
+200,2026-05-21,S1136,Electronics,Digital Circuits,Prof. Verma,Sem 1,3,3,4,5,4,The labs were well organised. Loved the interactive sessions.
+201,2026-04-08,S1072,Electronics,Signal Processing,Dr. Sharma,Sem 3,5,5,5,5,5,Great practical examples and projects. Very supportive and approachable teacher.
+202,2026-04-07,S1167,Management,Financial Accounting,Prof. Khan,Sem 1,5,5,4,5,4,The labs were well organised. Very supportive and approachable teacher.
+203,2025-12-16,S1165,Computer Science,Operating Systems,Prof. Rao,Sem 3,3,4,3,3,4,Great practical examples and projects. Very supportive and approachable teacher.
+204,2025-08-09,S1063,Mechanical,CAD/CAM,Dr. Gupta,Sem 2,5,5,4,5,5,Loved the interactive sessions. Very supportive and approachable teacher.
+205,2026-07-02,S1184,Management,Financial Accounting,Dr. Sharma,Sem 3,5,5,5,5,5,The labs were well organised. Explains concepts very clearly.
+206,2026-07-27,S1048,Computer Science,Database Systems,Prof. Rao,Sem 1,4,4,4,4,4,Loved the interactive sessions. Explains concepts very clearly.
+207,2026-04-02,S1036,Electronics,Signal Processing,Dr. Sharma,Sem 2,4,4,4,4,3,"Some topics were good, others average. Course is okay overall."
+208,2025-09-05,S1271,Management,Marketing,Prof. Rao,Sem 1,3,3,4,3,4,Great practical examples and projects. Loved the interactive sessions.
+209,2025-10-11,S1063,Electronics,Signal Processing,Dr. Iyer,Sem 4,3,4,4,3,3,Course is okay overall. Decent teaching but could improve.
+210,2026-07-04,S1154,Mechanical,Fluid Mechanics,Dr. Iyer,Sem 2,3,3,3,3,3,"Some topics were good, others average. Course is okay overall."
+211,2025-09-06,S1270,Electronics,VLSI Design,Prof. Khan,Sem 1,4,5,3,3,4,Very supportive and approachable teacher. Course content is up to date and useful.
+212,2026-05-28,S1034,Mechanical,Fluid Mechanics,Prof. Verma,Sem 1,3,2,3,3,3,Course is okay overall. Decent teaching but could improve.
+213,2025-09-12,S1274,Mechanical,Thermodynamics,Dr. Sharma,Sem 2,5,5,5,5,5,Very supportive and approachable teacher. Loved the interactive sessions.
+214,2026-01-06,S1223,Mechanical,Thermodynamics,Dr. Iyer,Sem 2,5,5,5,5,5,Loved the interactive sessions. Explains concepts very clearly.
+215,2025-08-07,S1070,Computer Science,Machine Learning,Dr. Sharma,Sem 1,4,4,4,4,4,Great practical examples and projects. Explains concepts very clearly.
+216,2026-08-30,S1015,Electronics,Signal Processing,Dr. Iyer,Sem 3,2,2,2,3,3,"Some topics were good, others average. Course is okay overall."
+217,2025-10-25,S1188,Management,Financial Accounting,Dr. Gupta,Sem 2,5,5,5,4,5,Very supportive and approachable teacher. Course content is up to date and useful.
+218,2026-02-03,S1196,Mechanical,Thermodynamics,Dr. Gupta,Sem 2,3,3,3,3,3,"Course is okay overall. Some topics were good, others average."
+219,2025-09-09,S1292,Electronics,Digital Circuits,Dr. Gupta,Sem 3,3,4,4,4,4,The labs were well organised. Loved the interactive sessions.
+220,2025-09-14,S1283,Computer Science,Data Structures,Prof. Verma,Sem 4,4,4,4,5,4,The labs were well organised. Loved the interactive sessions.
+221,2026-08-25,S1125,Computer Science,Database Systems,Prof. Verma,Sem 2,4,3,3,2,4,Great practical examples and projects. Course content is up to date and useful.
+222,2026-08-13,S1157,Computer Science,Operating Systems,Dr. Sharma,Sem 1,4,4,3,4,4,Loved the interactive sessions. Very supportive and approachable teacher.
+223,2026-02-28,S1190,Electronics,VLSI Design,Prof. Verma,Sem 4,2,2,2,2,2,Syllabus is outdated and boring. Assignments are confusing and feedback is slow.
+224,2025-12-12,S1161,Computer Science,Data Structures,Dr. Gupta,Sem 4,5,5,5,3,5,Great practical examples and projects. The labs were well organised.
+225,2026-03-27,S1160,Mechanical,Fluid Mechanics,Prof. Khan,Sem 4,4,4,5,3,4,Great practical examples and projects. Very supportive and approachable teacher.
+226,2025-11-19,S1167,Computer Science,Database Systems,Prof. Verma,Sem 2,3,3,2,3,3,Decent teaching but could improve. Course is okay overall.
+227,2026-08-19,S1281,Computer Science,Machine Learning,Dr. Iyer,Sem 2,3,3,4,4,4,Very supportive and approachable teacher. Course content is up to date and useful.
+228,2026-07-18,S1043,Computer Science,Operating Systems,Dr. Sharma,Sem 3,3,5,4,4,4,Very supportive and approachable teacher. The labs were well organised.
+229,2026-03-25,S1025,Computer Science,Data Structures,Dr. Sharma,Sem 2,5,4,4,5,4,Explains concepts very clearly. Loved the interactive sessions.
+230,2025-08-18,S1125,Management,Business Analytics,Prof. Khan,Sem 3,3,2,3,3,3,"Some topics were good, others average. Course is okay overall."
+231,2026-02-12,S1183,Management,Financial Accounting,Dr. Gupta,Sem 4,3,3,4,3,3,Course is okay overall. Decent teaching but could improve.
+232,2026-09-19,S1241,Management,Financial Accounting,Dr. Gupta,Sem 3,3,3,3,3,4,The labs were well organised. Explains concepts very clearly.
+233,2026-01-29,S1088,Electronics,Digital Circuits,Dr. Sharma,Sem 2,4,3,3,4,3,"Course is okay overall. Some topics were good, others average."
+234,2026-05-16,S1096,Electronics,VLSI Design,Dr. Iyer,Sem 4,3,4,4,4,3,Decent teaching but could improve. Course is okay overall.
+235,2026-09-17,S1066,Mechanical,Thermodynamics,Prof. Khan,Sem 3,4,4,4,3,4,Course content is up to date and useful. Great practical examples and projects.
+236,2026-07-27,S1202,Electronics,Signal Processing,Dr. Sharma,Sem 1,5,5,4,5,4,Explains concepts very clearly. The labs were well organised.
+237,2026-07-22,S1182,Mechanical,Fluid Mechanics,Dr. Iyer,Sem 2,4,5,4,5,4,Great practical examples and projects. Course content is up to date and useful.
+238,2025-11-02,S1162,Electronics,Signal Processing,Dr. Iyer,Sem 2,3,4,4,3,3,Decent teaching but could improve. Course is okay overall.
+239,2026-03-17,S1005,Computer Science,Operating Systems,Prof. Verma,Sem 3,4,3,4,2,3,"Decent teaching but could improve. Some topics were good, others average."
+240,2026-04-10,S1193,Electronics,Digital Circuits,Prof. Rao,Sem 3,4,4,4,3,4,Great practical examples and projects. Very supportive and approachable teacher.
+241,2025-08-11,S1163,Management,Marketing,Prof. Khan,Sem 3,3,4,3,3,3,"Course is okay overall. Some topics were good, others average."
+242,2026-04-05,S1015,Computer Science,Data Structures,Dr. Iyer,Sem 4,5,4,3,4,4,Course content is up to date and useful. Loved the interactive sessions.
+243,2025-12-14,S1144,Electronics,VLSI Design,Prof. Khan,Sem 3,4,4,4,4,4,Loved the interactive sessions. Course content is up to date and useful.
+244,2025-11-11,S1049,Electronics,Digital Circuits,Dr. Sharma,Sem 1,3,3,3,3,3,"Decent teaching but could improve. Some topics were good, others average."
+245,2025-09-16,S1278,Electronics,Digital Circuits,Prof. Rao,Sem 4,4,4,3,3,4,Loved the interactive sessions. The labs were well organised.
+246,2026-08-21,S1049,Electronics,Signal Processing,Prof. Khan,Sem 1,3,3,4,3,3,Course is okay overall. Decent teaching but could improve.
+247,2026-05-21,S1120,Mechanical,CAD/CAM,Prof. Khan,Sem 4,5,4,4,5,4,Course content is up to date and useful. Very supportive and approachable teacher.
+248,2025-10-01,S1229,Mechanical,Thermodynamics,Prof. Khan,Sem 2,4,3,5,5,4,Course content is up to date and useful. Great practical examples and projects.
+249,2026-01-11,S1034,Electronics,Digital Circuits,Prof. Verma,Sem 1,5,5,4,5,5,Course content is up to date and useful. The labs were well organised.
+250,2026-09-05,S1214,Management,Business Analytics,Prof. Khan,Sem 1,2,1,2,3,2,Assignments are confusing and feedback is slow. Classes are crowded and noisy.
+251,2026-02-27,S1135,Management,Marketing,Prof. Verma,Sem 4,2,3,2,3,3,"Some topics were good, others average. Decent teaching but could improve."
+252,2026-07-20,S1121,Management,Business Analytics,Dr. Gupta,Sem 1,3,2,4,3,3,"Some topics were good, others average. Decent teaching but could improve."
+253,2025-10-08,S1153,Management,Financial Accounting,Dr. Iyer,Sem 4,5,5,5,4,5,Explains concepts very clearly. Great practical examples and projects.
+254,2026-09-25,S1028,Mechanical,Fluid Mechanics,Prof. Rao,Sem 2,3,3,3,3,3,"Decent teaching but could improve. Some topics were good, others average."
+255,2025-12-06,S1016,Computer Science,Database Systems,Prof. Rao,Sem 4,3,4,2,4,3,Course is okay overall. Decent teaching but could improve.
+256,2026-04-08,S1228,Computer Science,Database Systems,Prof. Rao,Sem 2,4,3,4,5,4,Great practical examples and projects. The labs were well organised.
+257,2025-10-23,S1292,Management,Business Analytics,Dr. Gupta,Sem 2,4,4,3,3,3,"Some topics were good, others average. Course is okay overall."
+258,2025-10-07,S1088,Electronics,VLSI Design,Prof. Verma,Sem 1,3,3,3,3,2,"Lectures move too fast. Too much theory, not enough practice."
+259,2025-12-08,S1111,Electronics,Signal Processing,Dr. Gupta,Sem 4,3,5,4,3,4,The labs were well organised. Very supportive and approachable teacher.
+260,2025-12-31,S1055,Mechanical,CAD/CAM,Dr. Gupta,Sem 4,3,5,4,3,3,"Some topics were good, others average. Decent teaching but could improve."
+261,2026-08-27,S1123,Computer Science,Database Systems,Dr. Iyer,Sem 1,2,2,3,3,2,Syllabus is outdated and boring. Assignments are confusing and feedback is slow.
+262,2026-05-26,S1292,Management,Business Analytics,Dr. Iyer,Sem 2,2,2,1,3,2,"Too much theory, not enough practice. Lectures move too fast."
+263,2025-12-29,S1049,Mechanical,CAD/CAM,Prof. Rao,Sem 4,5,4,3,3,3,Course is okay overall. Decent teaching but could improve.
+264,2025-11-23,S1157,Electronics,VLSI Design,Dr. Iyer,Sem 4,3,5,3,4,3,"Course is okay overall. Some topics were good, others average."
+265,2026-03-30,S1099,Mechanical,Fluid Mechanics,Dr. Iyer,Sem 1,2,3,3,2,2,Assignments are confusing and feedback is slow. Lectures move too fast.
+266,2026-01-09,S1092,Management,Business Analytics,Dr. Iyer,Sem 1,3,3,4,1,3,"Some topics were good, others average. Course is okay overall."
+267,2026-04-08,S1045,Management,Financial Accounting,Prof. Rao,Sem 2,4,5,5,5,5,Course content is up to date and useful. Great practical examples and projects.
+268,2026-08-23,S1271,Management,Business Analytics,Prof. Khan,Sem 2,3,2,2,2,3,"Course is okay overall. Some topics were good, others average."
+269,2025-09-03,S1023,Computer Science,Data Structures,Prof. Rao,Sem 3,3,4,3,4,4,The labs were well organised. Great practical examples and projects.
+270,2026-08-20,S1096,Mechanical,Fluid Mechanics,Prof. Rao,Sem 2,2,2,3,4,3,"Some topics were good, others average. Decent teaching but could improve."
+271,2026-02-09,S1130,Management,Marketing,Prof. Verma,Sem 1,5,4,4,4,4,Loved the interactive sessions. Explains concepts very clearly.
+272,2025-11-14,S1004,Computer Science,Data Structures,Prof. Rao,Sem 3,4,4,4,4,4,Loved the interactive sessions. Great practical examples and projects.
+273,2025-12-23,S1058,Management,Business Analytics,Dr. Sharma,Sem 1,3,3,3,3,3,Decent teaching but could improve. Course is okay overall.
+274,2026-04-12,S1106,Management,Marketing,Dr. Gupta,Sem 4,4,3,4,4,4,Explains concepts very clearly. Course content is up to date and useful.
+275,2026-08-06,S1051,Mechanical,Thermodynamics,Dr. Sharma,Sem 3,4,5,4,3,4,Course content is up to date and useful. Explains concepts very clearly.
+276,2026-03-07,S1059,Electronics,Signal Processing,Dr. Iyer,Sem 1,4,4,2,4,3,"Decent teaching but could improve. Some topics were good, others average."
+277,2026-09-22,S1175,Computer Science,Data Structures,Prof. Verma,Sem 2,3,3,4,2,3,"Course is okay overall. Some topics were good, others average."
+278,2025-10-07,S1030,Computer Science,Operating Systems,Prof. Khan,Sem 2,4,3,5,5,4,Great practical examples and projects. Explains concepts very clearly.
+279,2026-04-05,S1249,Computer Science,Operating Systems,Dr. Gupta,Sem 1,3,2,3,3,2,Classes are crowded and noisy. Syllabus is outdated and boring.
+280,2025-11-23,S1173,Management,Financial Accounting,Dr. Sharma,Sem 1,5,5,5,4,5,Loved the interactive sessions. Course content is up to date and useful.
+281,2025-08-06,S1080,Management,Business Analytics,Prof. Rao,Sem 4,4,3,3,4,3,Decent teaching but could improve. Course is okay overall.
+282,2026-09-23,S1120,Management,Marketing,Dr. Sharma,Sem 1,3,3,4,3,3,"Some topics were good, others average. Decent teaching but could improve."
+283,2026-02-28,S1018,Management,Financial Accounting,Dr. Gupta,Sem 1,2,2,2,1,2,"Lectures move too fast. Too much theory, not enough practice."
+284,2026-05-14,S1242,Computer Science,Database Systems,Dr. Gupta,Sem 3,2,2,3,3,2,"Too much theory, not enough practice. Lab equipment is poor and often broken."
+285,2026-07-26,S1054,Management,Marketing,Dr. Sharma,Sem 1,3,3,5,4,4,Course content is up to date and useful. The labs were well organised.
+286,2026-03-23,S1097,Electronics,Signal Processing,Prof. Verma,Sem 3,3,4,4,4,4,Very supportive and approachable teacher. Great practical examples and projects.
+287,2026-04-13,S1002,Computer Science,Operating Systems,Dr. Sharma,Sem 1,5,4,5,4,5,Course content is up to date and useful. Great practical examples and projects.
+288,2026-07-03,S1164,Management,Business Analytics,Prof. Khan,Sem 4,5,5,5,5,5,Explains concepts very clearly. Very supportive and approachable teacher.
+289,2026-07-25,S1262,Management,Business Analytics,Prof. Rao,Sem 3,3,5,3,3,4,Very supportive and approachable teacher. Course content is up to date and useful.
+290,2026-07-30,S1091,Mechanical,CAD/CAM,Prof. Rao,Sem 3,4,5,5,5,5,Loved the interactive sessions. Great practical examples and projects.
+291,2026-09-18,S1006,Computer Science,Database Systems,Dr. Gupta,Sem 1,3,2,2,2,2,"Lab equipment is poor and often broken. Too much theory, not enough practice."
+292,2026-07-20,S1151,Computer Science,Operating Systems,Prof. Verma,Sem 2,4,4,5,5,4,Great practical examples and projects. Explains concepts very clearly.
+293,2026-09-06,S1147,Computer Science,Database Systems,Prof. Khan,Sem 1,5,5,4,5,4,Great practical examples and projects. Course content is up to date and useful.
+294,2025-11-24,S1188,Management,Financial Accounting,Prof. Khan,Sem 2,5,5,5,5,5,Course content is up to date and useful. Very supportive and approachable teacher.
+295,2026-05-12,S1135,Electronics,Signal Processing,Prof. Khan,Sem 2,5,4,5,4,4,Very supportive and approachable teacher. The labs were well organised.
+296,2026-07-05,S1154,Electronics,VLSI Design,Dr. Iyer,Sem 4,5,5,5,5,5,Loved the interactive sessions. Course content is up to date and useful.
+297,2025-09-17,S1178,Mechanical,Thermodynamics,Prof. Rao,Sem 2,4,3,4,3,3,"Decent teaching but could improve. Some topics were good, others average."
+298,2025-09-28,S1177,Electronics,VLSI Design,Dr. Iyer,Sem 4,4,4,3,2,3,Decent teaching but could improve. Course is okay overall.
+299,2025-12-10,S1276,Electronics,VLSI Design,Dr. Gupta,Sem 3,4,5,4,3,4,Explains concepts very clearly. Very supportive and approachable teacher.
+300,2026-08-31,S1275,Computer Science,Database Systems,Dr. Gupta,Sem 1,3,5,4,4,4,Explains concepts very clearly. Great practical examples and projects.
+301,2026-06-28,S1036,Computer Science,Machine Learning,Prof. Rao,Sem 2,3,3,2,3,3,"Decent teaching but could improve. Some topics were good, others average."
+302,2026-02-25,S1198,Computer Science,Operating Systems,Prof. Rao,Sem 4,4,4,4,3,4,Great practical examples and projects. The labs were well organised.
+303,2026-07-25,S1037,Management,Financial Accounting,Dr. Iyer,Sem 3,5,4,5,4,4,Course content is up to date and useful. Explains concepts very clearly.
+304,2026-05-01,S1112,Computer Science,Database Systems,Prof. Rao,Sem 2,4,4,3,3,4,Very supportive and approachable teacher. Great practical examples and projects.
+305,2026-05-11,S1284,Management,Business Analytics,Dr. Iyer,Sem 2,4,3,3,4,3,"Some topics were good, others average. Course is okay overall."
+306,2025-11-17,S1211,Computer Science,Data Structures,Dr. Sharma,Sem 2,3,3,3,3,3,"Decent teaching but could improve. Some topics were good, others average."
+307,2026-06-27,S1281,Electronics,Digital Circuits,Prof. Verma,Sem 1,3,4,4,3,3,"Decent teaching but could improve. Some topics were good, others average."
+308,2025-12-24,S1035,Mechanical,CAD/CAM,Dr. Sharma,Sem 2,4,2,3,3,3,Course is okay overall. Decent teaching but could improve.
+309,2025-08-03,S1160,Mechanical,Fluid Mechanics,Prof. Khan,Sem 2,4,3,3,2,3,"Some topics were good, others average. Course is okay overall."
+310,2026-09-01,S1156,Electronics,VLSI Design,Prof. Rao,Sem 4,3,3,4,3,4,Very supportive and approachable teacher. The labs were well organised.
+311,2026-08-08,S1038,Computer Science,Machine Learning,Prof. Rao,Sem 1,2,2,2,2,2,Classes are crowded and noisy. Lectures move too fast.
+312,2026-02-17,S1114,Computer Science,Operating Systems,Dr. Gupta,Sem 3,4,4,5,3,4,Great practical examples and projects. The labs were well organised.
+313,2026-08-23,S1263,Electronics,Signal Processing,Dr. Gupta,Sem 2,3,2,3,3,2,Assignments are confusing and feedback is slow. Syllabus is outdated and boring.
+314,2026-08-25,S1249,Management,Marketing,Prof. Verma,Sem 2,2,3,2,2,2,Lectures move too fast. Syllabus is outdated and boring.
+315,2026-06-29,S1165,Computer Science,Database Systems,Dr. Iyer,Sem 1,5,3,4,3,4,Explains concepts very clearly. Loved the interactive sessions.
+316,2025-12-07,S1192,Mechanical,CAD/CAM,Dr. Iyer,Sem 2,2,2,3,1,2,Lectures move too fast. Assignments are confusing and feedback is slow.
+317,2025-11-17,S1076,Management,Financial Accounting,Dr. Iyer,Sem 2,3,2,2,3,3,"Course is okay overall. Some topics were good, others average."
+318,2025-11-16,S1082,Electronics,Signal Processing,Dr. Gupta,Sem 4,3,4,5,3,3,"Some topics were good, others average. Decent teaching but could improve."
+319,2025-11-01,S1264,Computer Science,Machine Learning,Dr. Sharma,Sem 4,5,5,5,5,5,Great practical examples and projects. The labs were well organised.
+320,2026-09-25,S1093,Computer Science,Database Systems,Dr. Sharma,Sem 3,5,3,4,4,4,Great practical examples and projects. Course content is up to date and useful.
+321,2025-10-16,S1049,Electronics,VLSI Design,Prof. Rao,Sem 2,4,3,3,3,3,"Course is okay overall. Some topics were good, others average."
+322,2025-08-01,S1220,Management,Business Analytics,Dr. Gupta,Sem 4,5,5,5,5,5,Course content is up to date and useful. Loved the interactive sessions.
+323,2026-03-06,S1068,Mechanical,Thermodynamics,Prof. Rao,Sem 3,3,3,2,2,3,Decent teaching but could improve. Course is okay overall.
+324,2026-04-24,S1003,Management,Marketing,Dr. Sharma,Sem 4,4,3,3,3,3,Decent teaching but could improve. Course is okay overall.
+325,2026-06-10,S1141,Electronics,VLSI Design,Dr. Iyer,Sem 4,3,3,4,3,4,Course content is up to date and useful. The labs were well organised.
+326,2026-08-12,S1070,Electronics,Signal Processing,Dr. Gupta,Sem 1,3,3,4,4,4,The labs were well organised. Very supportive and approachable teacher.
+327,2025-10-22,S1199,Electronics,Signal Processing,Prof. Rao,Sem 1,4,3,4,4,3,Decent teaching but could improve. Course is okay overall.
+328,2026-06-11,S1266,Computer Science,Machine Learning,Prof. Khan,Sem 3,4,5,5,5,5,Very supportive and approachable teacher. Loved the interactive sessions.
+329,2026-06-11,S1086,Computer Science,Machine Learning,Prof. Rao,Sem 1,3,4,2,3,3,Decent teaching but could improve. Course is okay overall.
+330,2026-04-23,S1007,Mechanical,Thermodynamics,Prof. Rao,Sem 1,4,5,4,4,4,Course content is up to date and useful. Great practical examples and projects.
+331,2026-02-23,S1294,Computer Science,Database Systems,Prof. Rao,Sem 1,3,4,5,4,4,Great practical examples and projects. Very supportive and approachable teacher.
+332,2026-09-21,S1294,Mechanical,Thermodynamics,Prof. Khan,Sem 3,2,2,2,3,2,Lab equipment is poor and often broken. Assignments are confusing and feedback is slow.
+333,2025-09-29,S1132,Management,Financial Accounting,Dr. Gupta,Sem 1,3,2,4,2,2,"Lectures move too fast. Too much theory, not enough practice."
+334,2025-12-26,S1047,Management,Business Analytics,Prof. Verma,Sem 4,3,3,5,3,3,"Some topics were good, others average. Course is okay overall."
+335,2026-04-13,S1102,Mechanical,Thermodynamics,Dr. Gupta,Sem 2,4,4,5,4,5,Loved the interactive sessions. Great practical examples and projects.
+336,2026-06-11,S1003,Electronics,Signal Processing,Prof. Verma,Sem 1,5,4,3,4,4,Explains concepts very clearly. Very supportive and approachable teacher.
+337,2026-02-20,S1113,Management,Financial Accounting,Dr. Gupta,Sem 2,4,3,2,3,3,"Decent teaching but could improve. Some topics were good, others average."
+338,2026-03-24,S1161,Computer Science,Operating Systems,Prof. Khan,Sem 1,4,3,5,4,4,Explains concepts very clearly. Course content is up to date and useful.
+339,2026-02-04,S1094,Computer Science,Machine Learning,Prof. Khan,Sem 4,3,3,3,2,3,"Some topics were good, others average. Decent teaching but could improve."
+340,2026-09-21,S1051,Management,Marketing,Prof. Khan,Sem 3,3,4,3,3,3,Decent teaching but could improve. Course is okay overall.
+341,2025-10-08,S1264,Electronics,VLSI Design,Prof. Khan,Sem 3,4,4,3,4,4,Very supportive and approachable teacher. Loved the interactive sessions.
+342,2026-03-19,S1171,Management,Financial Accounting,Dr. Iyer,Sem 3,2,2,3,4,3,"Some topics were good, others average. Course is okay overall."
+343,2026-05-23,S1294,Mechanical,Fluid Mechanics,Dr. Gupta,Sem 2,2,2,3,2,3,Decent teaching but could improve. Course is okay overall.
+344,2025-10-25,S1172,Mechanical,Fluid Mechanics,Dr. Iyer,Sem 4,3,3,2,3,3,Decent teaching but could improve. Course is okay overall.
+345,2026-09-04,S1185,Management,Marketing,Dr. Sharma,Sem 4,4,4,4,4,4,The labs were well organised. Very supportive and approachable teacher.
+346,2026-02-20,S1052,Management,Marketing,Prof. Verma,Sem 1,4,4,4,4,4,Great practical examples and projects. Loved the interactive sessions.
+347,2026-01-06,S1117,Computer Science,Operating Systems,Dr. Gupta,Sem 2,5,3,5,5,5,Explains concepts very clearly. Very supportive and approachable teacher.
+348,2026-05-04,S1139,Mechanical,Fluid Mechanics,Prof. Rao,Sem 4,5,4,5,4,5,Very supportive and approachable teacher. Loved the interactive sessions.
+349,2026-01-06,S1177,Electronics,VLSI Design,Dr. Gupta,Sem 4,5,4,4,3,4,Loved the interactive sessions. Course content is up to date and useful.
+350,2025-12-25,S1240,Electronics,Digital Circuits,Prof. Khan,Sem 1,4,3,3,2,3,"Course is okay overall. Some topics were good, others average."
+351,2026-03-12,S1202,Management,Financial Accounting,Dr. Iyer,Sem 2,5,4,5,5,5,Very supportive and approachable teacher. Course content is up to date and useful.
+352,2025-12-24,S1272,Electronics,VLSI Design,Prof. Rao,Sem 3,2,3,3,2,2,Assignments are confusing and feedback is slow. Lab equipment is poor and often broken.
+353,2025-08-10,S1077,Management,Marketing,Dr. Sharma,Sem 1,4,3,3,4,4,Great practical examples and projects. The labs were well organised.
+354,2026-03-04,S1159,Computer Science,Machine Learning,Dr. Sharma,Sem 4,4,3,4,4,4,Great practical examples and projects. The labs were well organised.
+355,2026-03-29,S1092,Mechanical,Fluid Mechanics,Prof. Rao,Sem 2,3,5,3,5,4,Explains concepts very clearly. Course content is up to date and useful.
+356,2026-03-24,S1048,Mechanical,Fluid Mechanics,Dr. Sharma,Sem 2,5,5,5,4,5,Explains concepts very clearly. Great practical examples and projects.
+357,2026-04-04,S1152,Management,Financial Accounting,Prof. Rao,Sem 2,5,5,5,5,5,Explains concepts very clearly. The labs were well organised.
+358,2026-09-09,S1124,Mechanical,Thermodynamics,Prof. Rao,Sem 1,4,3,3,4,4,Explains concepts very clearly. Very supportive and approachable teacher.
+359,2025-08-31,S1182,Computer Science,Operating Systems,Prof. Rao,Sem 2,3,3,3,4,3,Decent teaching but could improve. Course is okay overall.
+360,2026-07-19,S1193,Computer Science,Machine Learning,Prof. Khan,Sem 3,5,4,3,4,4,Great practical examples and projects. Explains concepts very clearly.
+361,2026-08-10,S1239,Electronics,Signal Processing,Dr. Sharma,Sem 3,3,2,4,3,3,"Some topics were good, others average. Decent teaching but could improve."
+362,2025-08-10,S1186,Electronics,Digital Circuits,Dr. Gupta,Sem 2,4,4,5,5,5,Very supportive and approachable teacher. Great practical examples and projects.
+363,2026-01-13,S1209,Mechanical,CAD/CAM,Dr. Sharma,Sem 3,2,2,3,2,2,Assignments are confusing and feedback is slow. Lab equipment is poor and often broken.
+364,2025-08-17,S1292,Computer Science,Data Structures,Dr. Gupta,Sem 4,3,4,3,4,4,Great practical examples and projects. Explains concepts very clearly.
+365,2025-09-10,S1239,Management,Business Analytics,Dr. Gupta,Sem 1,3,3,4,5,4,Great practical examples and projects. Very supportive and approachable teacher.
+366,2026-01-03,S1039,Mechanical,CAD/CAM,Prof. Rao,Sem 2,4,4,5,5,4,Explains concepts very clearly. Loved the interactive sessions.
+367,2026-08-18,S1054,Computer Science,Data Structures,Prof. Rao,Sem 3,4,4,5,2,3,"Decent teaching but could improve. Some topics were good, others average."
+368,2026-03-15,S1180,Management,Business Analytics,Prof. Rao,Sem 3,3,3,2,2,2,Assignments are confusing and feedback is slow. Classes are crowded and noisy.
+369,2026-02-01,S1231,Mechanical,Fluid Mechanics,Prof. Khan,Sem 4,3,4,3,3,3,"Decent teaching but could improve. Some topics were good, others average."
+370,2026-01-09,S1011,Management,Marketing,Prof. Rao,Sem 3,4,5,4,4,4,Great practical examples and projects. Loved the interactive sessions.
+371,2026-05-20,S1204,Electronics,Digital Circuits,Dr. Sharma,Sem 2,3,3,4,3,3,"Some topics were good, others average. Course is okay overall."
+372,2026-08-10,S1295,Computer Science,Database Systems,Prof. Khan,Sem 4,5,4,4,5,4,The labs were well organised. Explains concepts very clearly.
+373,2026-06-21,S1195,Computer Science,Data Structures,Dr. Iyer,Sem 1,4,2,3,3,3,Decent teaching but could improve. Course is okay overall.
+374,2026-08-21,S1294,Mechanical,CAD/CAM,Dr. Sharma,Sem 1,4,3,4,4,4,Very supportive and approachable teacher. Loved the interactive sessions.
+375,2026-02-21,S1256,Electronics,Signal Processing,Dr. Iyer,Sem 4,3,3,4,4,3,"Some topics were good, others average. Course is okay overall."
+376,2025-09-06,S1136,Electronics,Digital Circuits,Prof. Khan,Sem 4,2,2,2,2,2,Syllabus is outdated and boring. Classes are crowded and noisy.
+377,2025-10-26,S1179,Mechanical,CAD/CAM,Dr. Gupta,Sem 4,5,4,5,4,5,Explains concepts very clearly. The labs were well organised.
+378,2025-12-03,S1075,Electronics,Signal Processing,Dr. Sharma,Sem 3,4,4,4,4,4,Loved the interactive sessions. Explains concepts very clearly.
+379,2026-05-08,S1247,Computer Science,Database Systems,Prof. Rao,Sem 2,3,3,4,4,3,"Decent teaching but could improve. Some topics were good, others average."
+380,2026-03-27,S1004,Computer Science,Operating Systems,Dr. Gupta,Sem 1,4,5,5,5,5,The labs were well organised. Explains concepts very clearly.
+381,2026-02-11,S1260,Management,Business Analytics,Dr. Iyer,Sem 1,1,2,3,2,3,"Some topics were good, others average. Course is okay overall."
+382,2026-01-18,S1250,Mechanical,Fluid Mechanics,Dr. Gupta,Sem 4,3,2,3,3,3,"Course is okay overall. Some topics were good, others average."
+383,2026-02-15,S1015,Electronics,Digital Circuits,Dr. Iyer,Sem 3,3,3,5,4,4,Explains concepts very clearly. The labs were well organised.
+384,2026-03-02,S1123,Electronics,Digital Circuits,Dr. Iyer,Sem 2,4,5,5,5,5,Loved the interactive sessions. Great practical examples and projects.
+385,2026-07-19,S1268,Management,Financial Accounting,Dr. Gupta,Sem 2,4,3,3,2,3,"Course is okay overall. Some topics were good, others average."
+386,2026-08-08,S1015,Management,Marketing,Prof. Rao,Sem 3,5,5,5,5,5,The labs were well organised. Great practical examples and projects.
+387,2025-11-03,S1013,Management,Financial Accounting,Dr. Iyer,Sem 3,2,3,1,1,2,Lectures move too fast. Syllabus is outdated and boring.
+388,2025-11-03,S1198,Electronics,VLSI Design,Prof. Verma,Sem 4,4,5,4,4,5,Very supportive and approachable teacher. The labs were well organised.
+389,2026-08-23,S1104,Management,Marketing,Prof. Verma,Sem 1,4,4,4,4,4,Loved the interactive sessions. Great practical examples and projects.
+390,2026-08-04,S1160,Electronics,Signal Processing,Dr. Gupta,Sem 4,3,2,3,3,3,"Decent teaching but could improve. Some topics were good, others average."
+391,2026-02-15,S1264,Computer Science,Data Structures,Prof. Khan,Sem 1,2,2,2,1,2,Lectures move too fast. Assignments are confusing and feedback is slow.
+392,2026-03-26,S1231,Electronics,Signal Processing,Prof. Khan,Sem 1,3,3,2,2,3,Course is okay overall. Decent teaching but could improve.
+393,2026-03-21,S1046,Computer Science,Machine Learning,Dr. Gupta,Sem 3,5,5,5,5,5,Course content is up to date and useful. Great practical examples and projects.
+394,2026-04-26,S1196,Mechanical,CAD/CAM,Prof. Rao,Sem 2,4,5,5,5,5,The labs were well organised. Explains concepts very clearly.
+395,2026-08-29,S1026,Management,Business Analytics,Prof. Khan,Sem 4,4,4,5,4,4,Great practical examples and projects. Loved the interactive sessions.
+396,2025-08-07,S1234,Mechanical,Fluid Mechanics,Prof. Rao,Sem 4,3,4,4,4,4,Course content is up to date and useful. The labs were well organised.
+397,2025-12-04,S1280,Management,Business Analytics,Dr. Sharma,Sem 3,2,3,4,2,3,Decent teaching but could improve. Course is okay overall.
+398,2025-09-14,S1025,Electronics,Digital Circuits,Prof. Verma,Sem 1,5,5,5,4,4,The labs were well organised. Loved the interactive sessions.
+399,2026-02-01,S1018,Management,Marketing,Prof. Verma,Sem 1,2,3,2,3,2,"Too much theory, not enough practice. Assignments are confusing and feedback is slow."
+400,2026-01-16,S1269,Mechanical,Fluid Mechanics,Dr. Iyer,Sem 4,4,5,4,5,5,Explains concepts very clearly. The labs were well organised.
+401,2026-03-07,S1162,Electronics,VLSI Design,Prof. Verma,Sem 3,3,3,2,4,3,"Decent teaching but could improve. Some topics were good, others average."
+402,2025-11-08,S1000,Mechanical,Thermodynamics,Dr. Gupta,Sem 1,2,2,2,3,3,"Decent teaching but could improve. Some topics were good, others average."
+403,2026-09-17,S1108,Computer Science,Operating Systems,Prof. Rao,Sem 1,3,4,5,4,4,The labs were well organised. Course content is up to date and useful.
+404,2026-02-19,S1291,Electronics,VLSI Design,Dr. Iyer,Sem 1,4,3,4,4,4,The labs were well organised. Loved the interactive sessions.
+405,2026-05-02,S1171,Electronics,Digital Circuits,Dr. Iyer,Sem 4,3,4,5,5,4,Great practical examples and projects. Very supportive and approachable teacher.
+406,2026-09-14,S1181,Management,Business Analytics,Dr. Sharma,Sem 1,4,4,3,4,4,Loved the interactive sessions. The labs were well organised.
+407,2026-07-28,S1161,Electronics,Signal Processing,Dr. Sharma,Sem 1,4,3,3,3,3,"Course is okay overall. Some topics were good, others average."
+408,2026-09-06,S1019,Mechanical,Fluid Mechanics,Dr. Sharma,Sem 2,3,2,3,3,3,"Course is okay overall. Some topics were good, others average."
+409,2026-09-02,S1167,Computer Science,Operating Systems,Dr. Gupta,Sem 2,5,4,5,5,5,Course content is up to date and useful. The labs were well organised.
+410,2025-09-14,S1170,Computer Science,Machine Learning,Prof. Verma,Sem 4,3,3,3,5,4,Loved the interactive sessions. Course content is up to date and useful.
+411,2025-12-25,S1141,Computer Science,Data Structures,Dr. Gupta,Sem 3,3,5,4,3,4,Great practical examples and projects. Loved the interactive sessions.
+412,2026-05-09,S1163,Management,Business Analytics,Dr. Sharma,Sem 3,4,5,5,3,4,Course content is up to date and useful. The labs were well organised.
+413,2026-07-12,S1025,Electronics,VLSI Design,Dr. Iyer,Sem 1,3,3,4,3,3,"Course is okay overall. Some topics were good, others average."
+414,2026-01-07,S1170,Management,Marketing,Dr. Sharma,Sem 2,3,2,3,4,3,"Decent teaching but could improve. Some topics were good, others average."
+415,2026-03-29,S1118,Computer Science,Operating Systems,Dr. Gupta,Sem 2,5,5,4,4,5,Loved the interactive sessions. Very supportive and approachable teacher.
+416,2025-08-16,S1033,Electronics,VLSI Design,Dr. Iyer,Sem 4,4,4,4,5,4,Very supportive and approachable teacher. Loved the interactive sessions.
+417,2026-01-14,S1284,Computer Science,Database Systems,Prof. Khan,Sem 1,3,3,2,3,3,Decent teaching but could improve. Course is okay overall.
+418,2026-09-21,S1220,Mechanical,CAD/CAM,Prof. Khan,Sem 4,3,2,2,3,2,Lab equipment is poor and often broken. Syllabus is outdated and boring.
+419,2026-03-26,S1166,Mechanical,CAD/CAM,Prof. Rao,Sem 1,5,5,4,3,4,Course content is up to date and useful. Loved the interactive sessions.
+420,2025-09-16,S1111,Management,Marketing,Dr. Iyer,Sem 2,4,5,5,4,4,Very supportive and approachable teacher. Explains concepts very clearly.
+421,2026-05-19,S1155,Computer Science,Machine Learning,Prof. Rao,Sem 4,5,4,5,5,5,The labs were well organised. Loved the interactive sessions.
+422,2025-08-01,S1286,Mechanical,Thermodynamics,Dr. Gupta,Sem 3,5,5,5,5,5,Course content is up to date and useful. Explains concepts very clearly.
+423,2026-07-06,S1088,Computer Science,Database Systems,Dr. Sharma,Sem 4,5,3,4,3,4,Course content is up to date and useful. Great practical examples and projects.
+424,2025-09-06,S1008,Electronics,Digital Circuits,Dr. Gupta,Sem 2,3,2,2,3,2,Syllabus is outdated and boring. Lectures move too fast.
+425,2026-03-06,S1092,Management,Business Analytics,Prof. Khan,Sem 4,4,5,5,5,4,Loved the interactive sessions. Course content is up to date and useful.
+426,2026-02-27,S1279,Management,Business Analytics,Prof. Khan,Sem 3,3,3,3,2,3,"Decent teaching but could improve. Some topics were good, others average."
+427,2026-03-27,S1264,Computer Science,Data Structures,Dr. Gupta,Sem 1,3,1,2,4,3,"Decent teaching but could improve. Some topics were good, others average."
+428,2026-01-23,S1273,Computer Science,Machine Learning,Prof. Khan,Sem 1,2,2,2,2,2,Assignments are confusing and feedback is slow. Lectures move too fast.
+429,2026-07-22,S1155,Management,Financial Accounting,Dr. Gupta,Sem 3,4,4,5,5,4,Great practical examples and projects. Explains concepts very clearly.
+430,2026-04-16,S1039,Computer Science,Operating Systems,Dr. Gupta,Sem 3,4,5,4,3,4,Explains concepts very clearly. Great practical examples and projects.
+431,2026-02-06,S1089,Mechanical,Thermodynamics,Dr. Gupta,Sem 3,4,4,3,4,4,Great practical examples and projects. Very supportive and approachable teacher.
+432,2026-08-21,S1211,Electronics,Signal Processing,Prof. Verma,Sem 4,3,4,4,5,5,Great practical examples and projects. Very supportive and approachable teacher.
+433,2025-10-25,S1237,Electronics,VLSI Design,Prof. Khan,Sem 4,3,3,3,4,3,Course is okay overall. Decent teaching but could improve.
+434,2025-08-07,S1147,Management,Financial Accounting,Prof. Khan,Sem 4,3,3,3,3,3,"Course is okay overall. Some topics were good, others average."
+435,2026-06-30,S1139,Management,Business Analytics,Dr. Iyer,Sem 3,5,5,5,4,4,Very supportive and approachable teacher. Course content is up to date and useful.
+436,2026-01-20,S1092,Mechanical,Fluid Mechanics,Dr. Sharma,Sem 3,4,3,4,4,4,Great practical examples and projects. Course content is up to date and useful.
+437,2025-08-13,S1047,Computer Science,Data Structures,Dr. Sharma,Sem 1,4,5,4,4,4,Great practical examples and projects. Explains concepts very clearly.
+438,2026-09-16,S1094,Electronics,VLSI Design,Prof. Rao,Sem 1,5,5,5,5,5,Loved the interactive sessions. Course content is up to date and useful.
+439,2025-12-10,S1082,Electronics,Signal Processing,Dr. Iyer,Sem 1,2,1,1,1,2,Classes are crowded and noisy. Lab equipment is poor and often broken.
+440,2026-02-18,S1091,Mechanical,Thermodynamics,Prof. Khan,Sem 4,3,1,2,1,2,Syllabus is outdated and boring. Assignments are confusing and feedback is slow.
+441,2026-05-20,S1128,Computer Science,Machine Learning,Dr. Gupta,Sem 4,3,3,3,4,3,Course is okay overall. Decent teaching but could improve.
+442,2025-08-02,S1263,Computer Science,Operating Systems,Prof. Verma,Sem 4,4,4,4,4,4,Very supportive and approachable teacher. Course content is up to date and useful.
+443,2026-05-18,S1274,Management,Financial Accounting,Prof. Khan,Sem 3,4,5,4,5,5,Very supportive and approachable teacher. Explains concepts very clearly.
+444,2026-08-25,S1148,Mechanical,CAD/CAM,Dr. Iyer,Sem 2,3,3,3,1,2,"Lectures move too fast. Too much theory, not enough practice."
+445,2026-06-20,S1224,Electronics,VLSI Design,Dr. Sharma,Sem 2,5,5,5,5,5,Very supportive and approachable teacher. Explains concepts very clearly.
+446,2026-09-20,S1230,Electronics,Digital Circuits,Prof. Verma,Sem 1,5,5,5,5,5,Very supportive and approachable teacher. Course content is up to date and useful.
+447,2026-08-15,S1296,Computer Science,Database Systems,Dr. Sharma,Sem 2,4,3,3,2,3,Decent teaching but could improve. Course is okay overall.
+448,2025-10-28,S1025,Computer Science,Data Structures,Prof. Rao,Sem 3,5,3,5,5,5,Great practical examples and projects. Explains concepts very clearly.
+449,2026-09-16,S1103,Computer Science,Operating Systems,Dr. Gupta,Sem 4,5,4,4,3,4,Great practical examples and projects. Explains concepts very clearly.
+450,2026-05-31,S1088,Mechanical,CAD/CAM,Prof. Rao,Sem 3,3,3,3,3,4,Great practical examples and projects. Explains concepts very clearly.
+451,2025-09-21,S1192,Computer Science,Data Structures,Dr. Iyer,Sem 2,5,4,3,3,4,Explains concepts very clearly. Great practical examples and projects.
+452,2025-11-14,S1073,Computer Science,Operating Systems,Dr. Sharma,Sem 3,4,5,5,5,5,Very supportive and approachable teacher. Great practical examples and projects.
+453,2026-01-26,S1214,Management,Financial Accounting,Prof. Verma,Sem 1,4,5,5,3,4,Loved the interactive sessions. The labs were well organised.
+454,2025-12-20,S1027,Electronics,Digital Circuits,Dr. Sharma,Sem 2,5,5,5,5,5,Very supportive and approachable teacher. Great practical examples and projects.
+455,2025-11-16,S1222,Computer Science,Machine Learning,Prof. Rao,Sem 3,4,4,5,5,4,The labs were well organised. Loved the interactive sessions.
+456,2025-11-29,S1227,Mechanical,CAD/CAM,Prof. Khan,Sem 3,5,5,5,5,5,Explains concepts very clearly. Loved the interactive sessions.
+457,2025-11-21,S1037,Management,Marketing,Prof. Rao,Sem 4,3,3,3,4,4,Great practical examples and projects. Very supportive and approachable teacher.
+458,2025-12-17,S1103,Management,Marketing,Prof. Khan,Sem 3,5,4,5,5,5,Loved the interactive sessions. The labs were well organised.
+459,2026-06-06,S1080,Electronics,Digital Circuits,Prof. Rao,Sem 2,3,3,3,2,3,"Course is okay overall. Some topics were good, others average."
+460,2026-08-12,S1126,Electronics,Digital Circuits,Prof. Khan,Sem 2,4,5,4,5,4,Loved the interactive sessions. Very supportive and approachable teacher.
+461,2026-03-29,S1258,Mechanical,Fluid Mechanics,Dr. Gupta,Sem 1,5,5,4,4,4,Explains concepts very clearly. Loved the interactive sessions.
+462,2025-11-20,S1067,Management,Business Analytics,Prof. Khan,Sem 3,2,2,1,2,2,"Lectures move too fast. Too much theory, not enough practice."
+463,2026-03-21,S1237,Mechanical,Thermodynamics,Prof. Rao,Sem 2,4,4,3,3,4,Course content is up to date and useful. Explains concepts very clearly.
+464,2025-12-30,S1218,Management,Marketing,Dr. Iyer,Sem 3,2,3,3,2,3,Decent teaching but could improve. Course is okay overall.
+465,2026-02-13,S1187,Electronics,VLSI Design,Dr. Sharma,Sem 4,3,4,3,3,3,Course is okay overall. Decent teaching but could improve.
+466,2025-09-28,S1244,Computer Science,Database Systems,Dr. Iyer,Sem 2,5,5,5,5,5,Great practical examples and projects. Course content is up to date and useful.
+467,2025-10-02,S1240,Electronics,Signal Processing,Dr. Iyer,Sem 3,4,4,5,4,4,Course content is up to date and useful. Loved the interactive sessions.
+468,2025-09-11,S1200,Management,Business Analytics,Dr. Iyer,Sem 2,3,5,3,5,4,Very supportive and approachable teacher. Explains concepts very clearly.
+469,2026-03-02,S1277,Mechanical,Thermodynamics,Dr. Sharma,Sem 2,4,4,4,4,5,Explains concepts very clearly. The labs were well organised.
+470,2026-02-27,S1296,Management,Financial Accounting,Prof. Khan,Sem 3,3,2,3,3,3,"Decent teaching but could improve. Some topics were good, others average."
+471,2026-09-09,S1133,Mechanical,Fluid Mechanics,Dr. Gupta,Sem 2,2,2,3,2,2,Lab equipment is poor and often broken. Syllabus is outdated and boring.
+472,2025-12-25,S1093,Management,Financial Accounting,Dr. Iyer,Sem 2,3,3,4,4,4,Loved the interactive sessions. Course content is up to date and useful.
+473,2026-07-07,S1162,Electronics,Digital Circuits,Prof. Verma,Sem 3,5,5,5,5,5,Loved the interactive sessions. Explains concepts very clearly.
+474,2026-01-11,S1079,Electronics,Signal Processing,Prof. Khan,Sem 1,3,3,4,2,3,"Course is okay overall. Some topics were good, others average."
+475,2026-01-21,S1057,Mechanical,CAD/CAM,Prof. Rao,Sem 4,4,4,3,4,4,Course content is up to date and useful. Very supportive and approachable teacher.
+476,2026-05-26,S1269,Computer Science,Machine Learning,Prof. Rao,Sem 2,3,2,4,3,3,Course is okay overall. Decent teaching but could improve.
+477,2026-06-05,S1261,Mechanical,Thermodynamics,Dr. Sharma,Sem 1,5,4,4,5,4,Very supportive and approachable teacher. The labs were well organised.
+478,2025-11-19,S1227,Mechanical,Fluid Mechanics,Prof. Verma,Sem 4,3,3,3,3,3,"Some topics were good, others average. Course is okay overall."
+479,2025-11-15,S1155,Management,Financial Accounting,Prof. Verma,Sem 4,3,3,5,5,4,Explains concepts very clearly. Great practical examples and projects.
+480,2025-11-11,S1095,Mechanical,Thermodynamics,Dr. Gupta,Sem 4,3,2,4,3,3,Decent teaching but could improve. Course is okay overall.
+481,2025-10-18,S1134,Mechanical,CAD/CAM,Prof. Khan,Sem 3,5,5,5,5,5,Explains concepts very clearly. Loved the interactive sessions.
+482,2025-09-04,S1185,Management,Marketing,Prof. Rao,Sem 4,3,4,4,3,3,"Some topics were good, others average. Decent teaching but could improve."
+483,2026-05-25,S1029,Management,Financial Accounting,Prof. Rao,Sem 2,1,3,2,3,2,Lab equipment is poor and often broken. Syllabus is outdated and boring.
+484,2026-04-29,S1039,Mechanical,Fluid Mechanics,Prof. Rao,Sem 2,4,4,5,4,4,The labs were well organised. Loved the interactive sessions.
+485,2025-09-19,S1273,Electronics,Digital Circuits,Dr. Gupta,Sem 3,3,4,3,3,3,"Decent teaching but could improve. Some topics were good, others average."
+486,2025-11-05,S1286,Electronics,Digital Circuits,Prof. Verma,Sem 1,3,2,3,3,3,Course is okay overall. Decent teaching but could improve.
+487,2026-04-25,S1175,Management,Financial Accounting,Dr. Sharma,Sem 2,4,5,4,4,4,Very supportive and approachable teacher. Course content is up to date and useful.
+488,2026-03-06,S1057,Mechanical,Thermodynamics,Prof. Rao,Sem 1,3,4,4,4,4,Great practical examples and projects. Explains concepts very clearly.
+489,2025-09-03,S1154,Computer Science,Operating Systems,Prof. Khan,Sem 1,4,4,3,4,4,The labs were well organised. Explains concepts very clearly.
+490,2026-01-26,S1180,Computer Science,Data Structures,Dr. Gupta,Sem 2,5,4,5,5,5,The labs were well organised. Course content is up to date and useful.
+491,2025-08-03,S1050,Electronics,VLSI Design,Dr. Gupta,Sem 2,5,5,4,5,4,Great practical examples and projects. Course content is up to date and useful.
+492,2026-02-25,S1057,Management,Financial Accounting,Prof. Rao,Sem 3,2,3,3,2,3,Course is okay overall. Decent teaching but could improve.
+493,2026-02-14,S1145,Computer Science,Operating Systems,Dr. Sharma,Sem 4,2,2,3,3,2,"Too much theory, not enough practice. Lectures move too fast."
+494,2025-10-31,S1006,Mechanical,CAD/CAM,Prof. Khan,Sem 4,4,4,4,5,4,Very supportive and approachable teacher. The labs were well organised.
+495,2025-09-03,S1186,Computer Science,Operating Systems,Prof. Khan,Sem 2,2,3,3,2,2,Classes are crowded and noisy. Syllabus is outdated and boring.
+496,2025-12-18,S1204,Mechanical,Thermodynamics,Dr. Gupta,Sem 3,4,4,5,3,4,Course content is up to date and useful. Loved the interactive sessions.
+497,2025-11-27,S1068,Management,Business Analytics,Dr. Gupta,Sem 1,5,5,5,5,5,Very supportive and approachable teacher. Loved the interactive sessions.
+498,2026-08-25,S1039,Computer Science,Data Structures,Dr. Sharma,Sem 4,3,4,4,3,4,Course content is up to date and useful. Explains concepts very clearly.
+499,2025-09-30,S1196,Management,Marketing,Dr. Iyer,Sem 4,2,3,4,4,3,"Course is okay overall. Some topics were good, others average."
+500,2025-10-08,S1159,Mechanical,Fluid Mechanics,Prof. Khan,Sem 4,3,2,3,3,3,"Some topics were good, others average. Decent teaching but could improve."
+501,2026-10-22,,Data science,Data Structures,nil,Sem 4,2,3,3,1,2,need to improve

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Give feedback{% endblock %}
+{% block content %}
+<h1>Give feedback</h1>
+<p class="lead">Rate each area from 1 (poor) to 5 (excellent).</p>
+<form method="post" class="form">
+  <label>Student ID <input name="student_id" placeholder="S1001"></label>
+  <label>Department <input name="department" placeholder="Computer Science"></label>
+  <label>Course
+    <select name="course" required>{% for c in courses %}<option>{{ c }}</option>{% endfor %}</select>
+  </label>
+  <label>Instructor <input name="instructor"></label>
+  <label>Semester <select name="semester"><option>Sem 1</option><option>Sem 2</option><option>Sem 3</option><option>Sem 4</option></select></label>
+  {% for key, label in [('teaching_quality','Teaching quality'),('course_content','Course content'),('lab_facilities','Lab facilities'),('support_staff','Support staff'),('overall_rating','Overall')] %}
+  <label>{{ label }}
+    <select name="{{ key }}" required><option value="">Choose</option>{% for n in range(1,6) %}<option>{{ n }}</option>{% endfor %}</select>
+  </label>
+  {% endfor %}
+  <label class="wide">Comment <textarea name="comment" rows="4" maxlength="500"></textarea></label>
+  <button class="btn" type="submit">Send feedback</button>
+</form>
+{% endblock %}

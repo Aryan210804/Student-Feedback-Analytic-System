@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<h1>Dashboard</h1>
+<section class="kpis">
+  <div><b>{{ s.kpis.total }}</b><span>responses</span></div>
+  <div><b>{{ s.kpis.avg_rating }}</b><span>average rating</span></div>
+  <div><b>{{ s.kpis.positive_pct }}%</b><span>positive comments</span></div>
+  <div><b>{{ s.kpis.courses }}</b><span>courses</span></div>
+</section>
+<section class="grid">
+  <figure><figcaption>Average rating by category</figcaption><canvas id="cat"></canvas></figure>
+  <figure><figcaption>Rating distribution</figcaption><canvas id="dist"></canvas></figure>
+  <figure><figcaption>Sentiment of comments</figcaption><canvas id="sent"></canvas></figure>
+  <figure class="wide"><figcaption>Average rating by month</figcaption><canvas id="trend"></canvas></figure>
+  <figure class="wide"><figcaption>Average rating by department</figcaption><canvas id="dept"></canvas></figure>
+</section>
+<h2>Most mentioned words</h2>
+<p class="chips">{% for w, n in s.keywords %}<span>{{ w }} <i>{{ n }}</i></span>{% endfor %}</p>
+<section class="course-rankings">
+  <div>
+    <h2>Top courses</h2>
+    <ol>{% for course, rating in s.top_courses.items() %}<li>{{ course }} <strong>{{ rating }}/5</strong></li>{% else %}<li>No course ratings yet</li>{% endfor %}</ol>
+  </div>
+  <div>
+    <h2>Courses to improve</h2>
+    <ol>{% for course, rating in s.bottom_courses.items() %}<li>{{ course }} <strong>{{ rating }}/5</strong></li>{% else %}<li>No course ratings yet</li>{% endfor %}</ol>
+  </div>
+</section>
+<h2>Latest comments</h2>
+<div class="table-wrap"><table>
+  <thead><tr><th>Date</th><th>Course</th><th>Rating</th><th>Sentiment</th><th>Comment</th></tr></thead>
+  <tbody>
+  {% for r in s.recent %}
+  <tr><td>{{ r.date }}</td><td>{{ r.course }}</td><td>{{ r.rating }}</td>
+      <td><span class="tag {{ r.sentiment|lower }}">{{ r.sentiment }}</span></td><td>{{ r.comment }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+{% endblock %}
+{% block scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+{% endblock %}
