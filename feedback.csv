@@ -500,3 +500,4 @@ feedback_id,date,student_id,department,course,instructor,semester,teaching_quali
 499,2025-09-30,S1196,Management,Marketing,Dr. Iyer,Sem 4,2,3,4,4,3,"Course is okay overall. Some topics were good, others average."
 500,2025-10-08,S1159,Mechanical,Fluid Mechanics,Prof. Khan,Sem 4,3,2,3,3,3,"Some topics were good, others average. Decent teaching but could improve."
 501,2026-10-22,,Data science,Data Structures,nil,Sem 4,2,3,3,1,2,need to improve
+502,2026-10-22,1,ese,Operating Systems,m,Sem 3,5,3,2,5,3,
