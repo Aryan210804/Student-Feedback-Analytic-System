@@ -41,7 +41,8 @@ def feedback():
         if not all(1 <= rating <= 5 for rating in ratings):
             flash("Choose a rating from 1 to 5 for every category.", "error")
             return render_template("feedback.html", courses=sorted(df.course.unique())), 400
-        feedback_ids = pd.to_numeric(df["feedback_id"], errors="coerce")
+        raw_feedback_ids = pd.read_csv(CSV, usecols=["feedback_id"])["feedback_id"]
+        feedback_ids = pd.to_numeric(raw_feedback_ids, errors="coerce")
         next_id = int(feedback_ids.max()) + 1 if feedback_ids.notna().any() else 1
         row = [next_id, date.today().isoformat(), f.get("student_id", "").strip(),
                f.get("department", "").strip(), f.get("course", "").strip(), f.get("instructor", "").strip(),

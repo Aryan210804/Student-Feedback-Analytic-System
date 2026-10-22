@@ -13,8 +13,10 @@ STOP = {"the", "a", "an", "and", "is", "are", "was", "were", "to", "of", "in", "
 def sentiment_label(text, rating):
     """Simple lexicon score; falls back to the rating when the text has no signal."""
     words = re.findall(r"[a-z']+", text.lower())
-    score = sum(w in POSITIVE for w in words) - sum(w in NEGATIVE for w in words)
-    if score == 0:
+    positive_hits = sum(w in POSITIVE for w in words)
+    negative_hits = sum(w in NEGATIVE for w in words)
+    score = positive_hits - negative_hits
+    if positive_hits == 0 and negative_hits == 0:
         score = 1 if rating >= 4 else -1 if rating <= 2 else 0
     return "Positive" if score > 0 else "Negative" if score < 0 else "Neutral"
 
@@ -41,7 +43,7 @@ def summarize(df):
     words = Counter(w for c in df["comment"] for w in re.findall(r"[a-z]{4,}", c.lower()) if w not in STOP)
     monthly = df.groupby(df["date"].dt.to_period("M"))["overall_rating"].mean().round(2)
     dept = df.groupby("department")["overall_rating"].mean().round(2).sort_values(ascending=False)
-    course = df.groupby("course")["overall_rating"].mean().round(2).sort_values(ascending=False)
+    course = df.groupby("course")["overall_rating"].mean().sort_values(ascending=False)
     recent = df.sort_values("date", ascending=False).head(10)
     return {
         "kpis": {
@@ -55,8 +57,8 @@ def summarize(df):
         "sentiment": {label: int(sent.get(label, 0)) for label in ("Positive", "Negative", "Neutral")},
         "monthly": {"labels": [str(p) for p in monthly.index], "values": monthly.tolist()},
         "departments": {"labels": dept.index.tolist(), "values": dept.tolist()},
-        "top_courses": course.head(3).to_dict(),
-        "bottom_courses": course.tail(3).to_dict(),
+        "top_courses": course.head(3).round(2).to_dict(),
+        "bottom_courses": course.tail(3).round(2).to_dict(),
         "keywords": words.most_common(10),
         "recent": [{"date": r.date.strftime("%d %b %Y"), "course": r.course, "rating": int(r.overall_rating),
                     "sentiment": r.sentiment, "comment": r.comment} for r in recent.itertuples()],
